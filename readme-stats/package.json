@@ -1,0 +1,33 @@
+{
+    "name": "readme-stats",
+    "version": "0.0.1",
+    "description": "Auto-inject GitHub and npm stats into your README.md",
+    "main": "lib/injectStats.js",
+    "bin": {
+      "readme-stats": "bin/cli.js"
+    },
+    "keywords": ["readme", "github", "npm", "badges", "cli"],
+    "author": "Huzaifa Azim",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Huzaifa Azim",
+            "email": "huzaifaazim0@gmail.com",
+            "url": "https://github.com/huzaifaazim0"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huzaifaazim0/readme-stats.git"
+    },
+    "bugs": {
+        "url": "https://github.com/huzaifaazim0/readme-stats/issues"
+    },
+    "homepage": "https://github.com/huzaifaazim0/readme-stats#readme",
+    "dependencies": {
+  "node-fetch": "^3.3.2",
+  "minimist": "^1.2.8"
+},
+    "type": "module"
+  }
+  
